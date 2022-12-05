@@ -1,0 +1,113 @@
+
+form {
+    background: linear-gradient(46deg, #A3C3DC, #003257);
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1em;
+}
+
+
+form label{
+    padding-bottom: .5em;
+    color: #3788BF;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+button [submit]{
+    width: 9em;
+}
+
+/*Full Screen*/
+@media(min-width:1024px){
+    
+    html {
+        background-color: #E4EAEA;  /*Background color*/
+    }
+
+
+
+    header {    /*color of the banner, text color, text decoration*/
+        background-color: #003257;
+        padding: 1em;
+    }
+    
+        /*Dr.B text color, removes text-decoration from link*/
+    header h1,a{
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: .25em;
+        padding-left: .5em;
+    }
+
+    /*To reflect clinic will replace with logo*/
+    header a:hover{color: #A3C3DC;}
+    
+    nav {
+        background-color: #003257;
+        text-align: right;
+        width: 100%;
+        padding-bottom: .5em;
+    }
+    
+    nav a{
+        text-decoration: none;
+        padding: 1em;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
+    nav a:hover{text-decoration: none;color: #A3C3DC;}
+
+    h2 {
+        font-size: 2em;
+        margin-top: 2em;
+    }
+
+    .section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-right: 10em;
+    }
+
+    .section p{
+        font-size: 1.5em;
+        margin-right: 4em;
+    }
+
+
+    /*Footer in charge of the copy right along with socials, and more links*/
+    footer {
+        background-color: #003257;
+        text-align: center;
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 1em;
+        font-style: italic;
+
+
+    }
+}
+
+
+/*These sections will get updated once main Full Screen website is constructed.*/
+@media (min-width:600px) and (max-width:1023px){
+    
+    html {
+        background-color: #E4EAEA;  /*Background color*/
+    }
+}
+
+/*Mobile Screen*/
+@media (max-width:600px){ 
+    
+    html {
+        background-color: #E4EAEA;  /*Background color*/
+    }
+
+}
