@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+}
+
+
+
 
 form {
     background: linear-gradient(46deg, #A3C3DC, #003257);
@@ -85,7 +91,7 @@ button [submit]{
     }
 
     .sectiont {
-        
+        margin-left: 2em;
     }
 
 
@@ -97,7 +103,7 @@ button [submit]{
         text-decoration: none;
         font-size: 1em;
         font-style: italic;
-
+        
 
     }
 }
