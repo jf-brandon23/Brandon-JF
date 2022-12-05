@@ -29,10 +29,10 @@ button [submit]{
     }
 
 
-
     header {    /*color of the banner, text color, text decoration*/
         background-color: #003257;
         padding: 1em;
+        /* padding-bottom: 1em; */
     }
     
         /*Dr.B text color, removes text-decoration from link*/
@@ -66,8 +66,10 @@ button [submit]{
     h2 {
         font-size: 2em;
         margin-top: 2em;
+        margin-left: .5em;
     }
 
+    /* Section in charge in setting the layout. */
     .section {
         display: flex;
         justify-content: space-between;
@@ -75,9 +77,15 @@ button [submit]{
         margin-right: 10em;
     }
 
+    /* Section p in charge of css of content inside the section div */
     .section p{
         font-size: 1.5em;
         margin-right: 4em;
+        margin-left: 1em;
+    }
+
+    .sectiont {
+        
     }
 
 
@@ -94,13 +102,28 @@ button [submit]{
     }
 }
 
-
 /*These sections will get updated once main Full Screen website is constructed.*/
 @media (min-width:600px) and (max-width:1023px){
     
     html {
         background-color: #E4EAEA;  /*Background color*/
     }
+
+    header {    /*color of the banner, text color, text decoration*/
+        background-color: #003257;
+        padding: 1em;
+    }
+    
+        /*Dr.B text color, removes text-decoration from link*/
+    header h1,a{
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: .25em;
+        padding-left: .5em;
+    }
+
+    /*To reflect clinic will replace with logo*/
+    header a:hover{color: #A3C3DC;}
 }
 
 /*Mobile Screen*/
