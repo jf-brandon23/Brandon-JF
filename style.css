@@ -2,9 +2,6 @@ body {
     margin: 0;
 }
 
-
-
-
 form {
     background: linear-gradient(46deg, #A3C3DC, #003257);
     font-size: 1.5em;
@@ -88,6 +85,10 @@ button [submit]{
         font-size: 1.5em;
         margin-right: 4em;
         margin-left: 1em;
+    }
+
+    .section ul{
+        list-style-type: none;
     }
 
     .sectiont {
