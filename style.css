@@ -3,20 +3,21 @@ body {
 }
 
 form {
-    background: linear-gradient(46deg, #A3C3DC, #003257);
+    /* background: linear-gradient(46deg, #A3C3DC, #003257); */
     font-size: 1.5em;
     display: flex;
     flex-direction: column;
     width: 40%;
     padding: 1em;
     margin-left: 1em;
+    
 }
 
 
 form label{
     padding-bottom: .5em;
     color: #3788BF;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: bold;
     
 }
@@ -114,13 +115,21 @@ button [submit]{
         margin-left: 2em;
     }
 
-
-
-
-    .sectiont {
+    .contactsection img{
         margin-left: 2em;
     }
 
+
+/* Section dedicated to section table */
+    .sectiont {
+        margin-left: 2em;
+        /* margin-right: auto; */
+        margin-top: 4em;
+    }
+
+    .sectiont h3{
+        /* text-align: center; */
+    }
 
     /*Footer in charge of the copy right along with socials, and more links*/
     footer {
@@ -131,7 +140,26 @@ button [submit]{
         font-size: 1em;
         font-style: italic;
         
+    }
 
+
+    table th,td{
+        border-collapse: collapse;
+        text-align: center;
+        padding: 1em;
+        border: 1px solid #3788BF;
+    }
+
+    #tablecellyes {
+        background-color: #3788BF;
+        font-weight: bold;
+    }
+
+
+
+    #tablecellno {
+        background-color: #6D837A;
+        font-weight: bold;
     }
 }
 
