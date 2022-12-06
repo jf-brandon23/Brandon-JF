@@ -85,12 +85,37 @@ button [submit]{
     .section p{
         font-size: 1.5em;
         margin-right: 4em;
-        margin-left: 1em;
+        margin-left: 2em;
     }
+
 
     .section ul{
         list-style-type: none;
     }
+
+    .section img{
+        /* Same margin from border similar to .section p */
+        margin-left: 2em;
+    }
+
+
+
+/* Section dedicated to contact page. */
+    .contactsection {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-right: 10em;
+    }
+
+    .contactsection p{
+        font-size: 1.5em;
+        margin-right: 4em;
+        margin-left: 2em;
+    }
+
+
+
 
     .sectiont {
         margin-left: 2em;
